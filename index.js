@@ -48,12 +48,12 @@ app.get('/api/**', function(request, response) {
 	req.end();
 });
 
-app.listen(app.get('port'), function() {
+/*app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
-});
+});*/
 
 server.use("/api", router);
-server.listen(3000, () => {
+server.listen(app.get('port'), () => {
   console.log('JSON Server is running');
 });
 
