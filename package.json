@@ -23,5 +23,11 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cookie-session": "^2.0.0-beta.2",
+    "http-port-forward": "^2.0.3",
+    "livereload": "^0.6.2",
+    "node-env-file": "^0.1.8"
+  }
 }
